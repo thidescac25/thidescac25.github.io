@@ -1,0 +1,84 @@
+style.css
+
+/* Appliquer une police moderne */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #007471;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #007471;
+    color: white;
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Section Galerie */
+section#gallery {
+    text-align: center;
+    padding: 30px;
+}
+section#gallery img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section À propos */
+section#about {
+    text-align: center;
+    padding: 30px;
+}
+section#about .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007471;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+section#about .button:hover {
+    background-color: #005951;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
